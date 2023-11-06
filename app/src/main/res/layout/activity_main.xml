@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@+id/linear"
+    android:orientation="vertical"
+    android:background="#DDE3DD"
+    tools:context=".MainActivity">
+<Spinner
+    android:id="@+id/spinner"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="260dp"
+    tools:ignore="RtlSymmetry" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/anhbackground"
+        android:paddingTop="60dp"
+        android:src="@drawable/icon_dasboard" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btn_page_signin"
+        android:layout_width="323dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/round_btn"
+        app:backgroundTint ="@null"
+        android:text="@string/sign_in"
+        android:textSize="16sp"
+        />
+    <Button
+        android:id="@+id/btn_page_signup"
+        android:layout_width="323dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/round_btn"
+        app:backgroundTint ="@null"
+        android:text="@string/sign_up"
+        android:textSize="16sp"/>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingHorizontal="16dp"
+    android:layout_marginTop="40dp"
+    android:layout_marginStart="30dp">
+        
+        <View
+            android:layout_width="120dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="@color/black" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/or"
+        android:paddingHorizontal="4dp"/>
+
+         <View
+             android:layout_width="120dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            android:layout_gravity="center"/>
+</LinearLayout>
+
+    <Button
+        android:id="@+id/btn_gg"
+        android:layout_width="323dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/round_btn"
+        android:drawableLeft="@drawable/img_gg"
+        android:text="@string/continue_with_google"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:backgroundTint="#9EB384" />
+
+    <Button
+        android:id="@+id/btn_fb"
+        android:layout_width="323dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/round_btn"
+        android:drawableLeft="@drawable/img_fb"
+        android:text="@string/continue_with_facebook"
+        android:textSize="16sp"
+        app:backgroundTint="#3A579B" />
+</LinearLayout>
+</LinearLayout>

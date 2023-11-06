@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DDE3DD"
+    tools:context=".SignupActivity">
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/icon_frame"
+        android:layout_marginStart="120dp"
+        android:src="@drawable/img_frame"
+        android:layout_marginTop="-55dp"
+        tools:ignore="RtlSymmetry" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            android:text="@string/sign_up"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="@string/text_intro"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:alpha="0.5"
+            android:paddingHorizontal="40dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/ExtUsername"
+            android:layout_width="323dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext"
+            android:hint="@string/username"
+            android:paddingStart="20dp"
+            tools:ignore="RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/ExtEmail"
+            android:layout_width="323dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext"
+            android:hint="@string/email"
+            android:paddingStart="20dp"
+            tools:ignore="RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/ExtPass"
+            android:layout_width="323dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext"
+            android:drawableRight="@drawable/baseline_visibility_24"
+            android:hint="@string/password"
+            android:paddingHorizontal="20dp"
+            tools:ignore="RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/ExtEPass"
+            android:layout_width="323dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext"
+            android:drawableRight="@drawable/baseline_visibility_24"
+            android:hint="@string/password"
+            android:paddingHorizontal="20dp"
+            tools:ignore="RtlSymmetry" />
+
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="323dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_btn"
+            android:text="@string/sign_up"
+            android:textSize="16sp"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/btn_Signup_home"
+            android:layout_width="323dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_btn"
+            android:text="@string/back"
+            android:textSize="16sp"
+            app:backgroundTint="#9EB384" />
+    </LinearLayout>
+</LinearLayout>

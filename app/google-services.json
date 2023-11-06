@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "506712594714",
+    "project_id": "duxweather",
+    "storage_bucket": "duxweather.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506712594714:android:7d5b893ebe143cdc4f74a3",
+        "android_client_info": {
+          "package_name": "com.example.doanad"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBULVxR9weGgrg-S8OrYJ1Lim782oN_AoM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

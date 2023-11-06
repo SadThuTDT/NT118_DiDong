@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DoAnAD</string>
+    <string name="anhbackground">anhBackground</string>
+    <string name="sign_up">Sign up</string>
+    <string name="or">OR</string>
+    <string name="sign_in">Sign in</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="continue_with_facebook">Continue with Facebook</string>
+    <string name="icon_frame">icon_frame</string>
+    <string name="text_intro">Enter your email and password and start creating</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="back">Back</string>
+    <string name="icon_signin">icon_signin</string>
+    <string name="text_signin">Enter your email and password </string>
+</resources>
